@@ -54,14 +54,14 @@
                         <div class="navbar-collapse collapse clearfix">
                             <ul class="navigation clearfix">
                                 <li class="current"><a href="index.php">Home</a>  </li>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="#">Gallery</a>  </li>
+                                <li><a href="#about_us">About Us</a></li>
+                                <li><a href="#rules">Rules</a>  </li>
                             </ul>
 
                             <ul class="navigation clearfix">
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#application_form">Application Form</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#news">News</a></li>
                             </ul>
                         </div>
                     </nav> 
