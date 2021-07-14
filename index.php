@@ -193,17 +193,22 @@
                                     <!--Content Column-->
                                     <div class="content-column col-md-6 col-sm-6 col-xs-12">
                                         <div class="inner text-left wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                            <h3>01. 100% Organic</h3>
-                                            <div class="text">Cheese strings bocconcini gouda. Parmesan emmental danish fontina cheese triangles bocconcini rubber cheese cheese slices bavarian bergkase.</div>
-                                            <a href="#" class="theme-btn btn-style-two">Read More</a>
+                                            <h3>01. කෘෂි හා ගෘහ ආර්ථික නිෂ්පාදන සංවර්ධනය. </h3>
+                                            <div class="text">
+                                                දේශීය කෘෂි හා ගෘහ ආර්ථික නිෂ්පාදන සංවර්ධනය කිරීම  හා නන්වාලීම සඳහා අත්වැලක් සැපයීම .   
+                                               
+
+                                            </div>
+                                            <a href="#about_us" class="theme-btn btn-style-two">Read More</a>
                                         </div>
                                     </div>
                                     <!--Content Column-->
                                     <div class="content-column col-md-6 col-sm-6 col-xs-12">
                                         <div class="inner text-right wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                            <h3>02. Best Quality Products</h3>
-                                            <div class="text">Cheese strings bocconcini gouda. Parmesan emmental danish fontina cheese triangles bocconcini rubber cheese cheese slices bavarian bergkase.</div>
-                                            <a href="#" class="theme-btn btn-style-two">Read More</a>
+                                            <h3>02. නිරොගිමත් අනාගත පරපුරක් උදෙසා</h3>
+                                            <div class="text">
+                                                වස විසෙන් තොර අනාගත දරු පරපුරක් රටට දායාද කිරීම සඳහා ඔබත් අප හා එකවන්න..</div>
+                                            <a href="#application_form" class="theme-btn btn-style-two">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -216,45 +221,40 @@
 
 
             <!--About Farm Section-->
-            <section class="about-farm"  >
+            <section class="about-farm" id="about_us" >
                 <div class="auto-container">
                     <!--Section Title-->
-                   <div class="sec-title-one">
-                        <h2>About our farm</h2>
+                    <div class="sec-title-one">
+                        <h2>About our Suhuru Garden. </h2>
                     </div>
 
                     <div class="row clearfix">
-
                         <!--Column-->
-                        <div class="column col-lg-5 col-md-4 col-sm-12 col-xs-12">
+                        <div class="column col-lg-5 col-md-4 col-sm-12 col-xs-12" style="margin-top: -30px;">
                             <figure class="image-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <img src="images/about.jpeg" alt="" style="border-radius: 50%;">
+                                <img src="images/about.jpeg" alt="" style="border-radius: 10px;;">
                             </figure>
                         </div>
 
-                        <div class="col-lg-7 col-md-8 col-sm-8 col-xs-12">
-
-                          
-
-                            <h2 style="font-weight: 700;font-size: 28px;margin-bottom: 20px;">තරඟ පැවැත්වෙන ආකාරය.</h2>
+                        <div class="col-lg-7 col-md-8 col-sm-8 col-xs-12"> 
+                            <h2 style="font-weight: 700;font-size: 35px;margin-bottom: 20px;"><i>තරඟ පැවැත්වෙන ආකාරය.</i></h2>
                             <div class="content">
-                                <p style="font-size: 16px;">
-                                    <span style="color:#49BFAB"> ප්‍රදේශිය </span>- ප්‍රාදේශිය මට්ටම සෑම ග්‍රාම නිළධාරී වසමක් ආවරණය වන පරිදි
-
-                                    2021 අගෝස්තු මස තුළ ප්‍රදේශිය ලේකම් කොට්ඨාශ මට්ටමේ තරග පැවැත්වේ     
+                                <p style="font-size: 20px;">
+                                    <span style="color:#49BFAB"> ප්‍රදේශිය </span>- ප්‍රාදේශිය මට්ටම සෑම ග්‍රාම නිළධාරී වසමක් ආවරණය වන පරිදි 2021 
+                                    නොවැම්බර් පලමු සතිය  තුළ ප්‍රදේශිය ලේකම් කොට්ඨාශ මට්ටමේ තරග පැවැත්වේ.      
                                 </p>
-                                <p style="font-size: 16px;">
-                                    <span style="color:#49BFAB"> දිස්ත්‍රික්  </span>- දිස්ත්‍රික් මට්ටම ප්‍රදේශිය ජයාග්‍රහකයින් ගෙන් තොරාගනු ලැබේ
-
-                                    2021 සැප්තැම්බර් මස තුළ තරග පැවැත්වේ. ප්‍රදේශිය ජයග්‍රහයින්ට සහභාගී විය හැක.
+                                <p style="font-size: 20px;">
+                                    <span style="color:#49BFAB"> දිස්ත්‍රික්  </span>- 
+                                    
+                                    දිස්ත්‍රික් මට්ටම ප්‍රදේශිය ජයාග්‍රහකයින් ගෙන් තොරාගනු ලැබේ    2021 නොවැම්බර් දෙවන සතියතුළ තරග පැවැත්වේ. ප්‍රදේශිය ජයග්‍රහයින්ට සහභාගී විය හැක.   
                                 </p>
-                               <p style="font-size: 16px;">
-                                    <span style="color:#49BFAB">  ජාතික </span> - දිස්ත්‍රික් 25 ක ජයාග්‍රයකින් අතුරින් තොරාගනු ලැබ්.
+                                <p style="font-size: 20px;">
+                                    <span style="color:#49BFAB">  ජාතික </span> - දිස්ත්‍රික් 26 ක ජයාග්‍රයකින් අතුරින් තොරාගනු ලැබ්.
 
-                                    ජාතික තරඟයට සුදුසුකම් ලබන ‍ ගෙවතු 25 අතුරින් හොඳම ගෙවතු තුන තොරාගනු ලැබේ. 
+                                    ජාතික තරඟයට සුදුසුකම් ලබන ‍ ගෙවතු 26 අතුරින් හොඳම ගෙවතු තුන තොරාගනු ලැබේ. 
                                 </p>
                             </div>
-                            
+
 
                         </div>
 
@@ -288,7 +288,7 @@
                     <div class="right-column">
                         <div class="clearfix">
                             <div class="inner-box">
-                                <h3>Join with us</h3>
+                                <h3>Join with us Noq.!</h3>
                                 <h5>on your first day</h5>
                                 <a href="#" class="theme-btn btn-style-three">View More</a>
                             </div>
@@ -299,7 +299,7 @@
             </section>
 
 
-            <section class="products-section-two">
+            <section class="products-section-two" id="rules">
                 <div class="auto-container">
                     <!--Section Title-->
                     <div class="sec-title-one">
@@ -432,8 +432,8 @@
 
                 </div>
             </section>
-            <div class="auto-container">
 
+            <div class="auto-container" id="application_form">
                 <div class="row clearfix">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <!--Default Links--> 
@@ -516,11 +516,11 @@
 
 
             <!--Our Team-->
-            <section class="team-section">
+            <section class="team-section" id="projects">
                 <div class="auto-container">
                     <!--Section Title-->
                     <div class="sec-title-one">
-                        <h2>Our farmers</h2>
+                        <h2>පසුගිය වර්ෂයන්හි පැවති ව්‍යාපෘති.  </h2>
                     </div>
 
                     <div class="row clearfix">
@@ -529,7 +529,7 @@
                             <div class="default-team-member">
                                 <div class="inner-box clearfix">
                                     <!--Image Column-->
-                                    <div class="image-column"><figure class="image"><a href="#"><img src="images/resource/team-image-1.jpg" alt=""></a></figure></div>
+                                    <div class="image-column"><figure class="image"><a href="#"><img src="images/suhuru/01.jpg" alt=""></a></figure></div>
                                     <!--Content Column-->
                                     <div class="content-column">
                                         <div class="inner">
@@ -547,7 +547,7 @@
                             <div class="default-team-member alternate">
                                 <div class="inner-box clearfix">
                                     <!--Image Column-->
-                                    <div class="image-column"><figure class="image"><a href="#"><img src="images/resource/team-image-2.jpg" alt=""></a></figure></div>
+                                    <div class="image-column"><figure class="image"><a href="#"><img src="images/suhuru/02.jpg" alt=""></a></figure></div>
                                     <!--Content Column-->
                                     <div class="content-column">
                                         <div class="inner">
@@ -568,7 +568,7 @@
                             <div class="default-team-member vertical">
                                 <div class="inner-box clearfix">
                                     <!--Image Column-->
-                                    <div class="image-column"><figure class="image"><a href="#"><img src="images/resource/team-image-3.jpg" alt=""></a></figure></div>
+                                    <div class="image-column"><figure class="image"><a href="#"><img src="images/suhuru/03.jpg" alt=""></a></figure></div>
                                     <!--Content Column-->
                                     <div class="content-column">
                                         <div class="inner">
@@ -581,65 +581,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="row clearfix">
-
-
-                        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                            <!--Default Team Member / Vertical-->
-                            <div class="default-team-member vertical">
-                                <div class="inner-box clearfix">
-                                    <!--Image Column-->
-                                    <div class="image-column"><figure class="image"><a href="#"><img src="images/resource/team-image-3.jpg" alt=""></a></figure></div>
-                                    <!--Content Column-->
-                                    <div class="content-column">
-                                        <div class="inner">
-                                            <h3>අපේ ගෙවත්ත</h3>
-                                            <div class="text">Meet the maker of our bread – our fabulous baker boy alberto Trombin. He creates superb bread in their Melbourne-based bread-quarters.</div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
-                            <!--Default Team Member-->
-                            <div class="default-team-member">
-                                <div class="inner-box clearfix">
-                                    <!--Image Column-->
-                                    <div class="image-column"><figure class="image"><a href="#"><img src="images/resource/team-image-1.jpg" alt=""></a></figure></div>
-                                    <!--Content Column-->
-                                    <div class="content-column">
-                                        <div class="inner">
-                                            <h3>තරුණ කෘෂි ගොවිපළ</h3>
-                                            <div class="text">Meet the maker of our bread – our fabulous baker boy alberto Trombin. He creates superb bread in their Melbourne-based bread-quarters.</div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--Default Team Member-->
-                            <div class="default-team-member alternate">
-                                <div class="inner-box clearfix">
-                                    <!--Image Column-->
-                                    <div class="image-column"><figure class="image"><a href="#"><img src="images/resource/team-image-2.jpg" alt=""></a></figure></div>
-                                    <!--Content Column-->
-                                    <div class="content-column">
-                                        <div class="inner">
-                                            <h3>තරුණ කෘෂි ගොවිපළ</h3>
-                                            <div class="text">Meet the maker of our bread – our fabulous baker boy alberto Trombin. He creates superb bread in their Melbourne-based bread-quarters.</div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+                    </div> 
                 </div>
             </section>
 
@@ -649,32 +591,36 @@
             <section class="fluid-section-two">
 
                 <div class="outer-box clearfix">
-                    <!--Left Column-->
-                    <div class="left-column">
-                        <div class="clearfix">
-                            <div class="inner-box">
-                                <h5>Newsletter</h5>
-                                <h3>Stay tune for updates</h3>
+                    <div class="container" style="padding: 55px 0px 55px 0px;">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="clearfix">
+                                    <div class="inner-box">
+                                        <h3>  රුපියල් ලක්ෂ 150 තරුණ කෘෂි විව්‍යසායකින් අතර බෙදීයයි.</h3>
+                                        <h3>Stay tune for updates</h3>
 
-                                <div class="subscribe-form">
-                                    <form method="post" action="#">
-                                        <div class="form-group">
-                                            <input type="email" name="email" value="" placeholder="Enter Your Email" required>
-                                            <button type="submit" class="theme-btn btn-style-three">Send Now</button>
+                                        <div class="subscribe-form">
+                                            <form method="post" action="#">
+                                                <div class="form-group">
+                                                    <input type="email" name="email" value="" placeholder="Enter Your Email" required>
+                                                    <button type="submit" class="theme-btn btn-style-three" id="application_form">Send Now</button>
+                                                </div>
+                                            </form>
                                         </div>
-                                    </form>
-                                </div>
 
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="news-section">
+            
+            <section class="news-section" id="news">
                 <div class="auto-container">
                     <!--Section Title-->
                     <div class="sec-title-one">
-                        <h2>Latest blog updates</h2>
+                        <h2 >Latest news updates</h2>
                     </div>
 
                     <div class="row clearfix">
@@ -726,7 +672,7 @@
                     </div>
                 </div>
             </section>
-            <section class="welcome-section">
+            <section class="welcome-section" >
                 <div class="auto-container"> 
 
                     <div class="row clearfix">
