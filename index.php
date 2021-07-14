@@ -15,7 +15,7 @@
         <link href="css/responsive.css" rel="stylesheet">
         <link href="sweetalert/sweetalert.css" rel="stylesheet" type="text/css"/>
         <link href="css/preloader.css" rel="stylesheet" type="text/css"/>
-        
+
     </head>
     <body class="someBlock">
         <div class="page-wrapper">
@@ -187,10 +187,10 @@
                                     <!--Content Column-->
                                     <div class="content-column col-md-6 col-sm-6 col-xs-12">
                                         <div class="inner text-left wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                            <h3>01. කෘෂි හා ගෘහ ආර්ථික නිෂ්පාදන සංවර්ධනය. </h3>
+                                            <h3>01. කෘෂි හා ගෘහ ආශ්‍රිත නිෂ්පාදන සංවර්ධනය.   </h3>
                                             <div class="text">
-                                                දේශීය කෘෂි හා ගෘහ ආර්ථික නිෂ්පාදන සංවර්ධනය කිරීම  හා නන්වාලීම සඳහා අත්වැලක් සැපයීම .   
-                                               
+                                              දේශීය කෘෂි හා ගෘහ ආශ්‍රිත නිෂ්පාදන සංවර්ධනය කිරීම හා නන්වාලීම සඳහා අත්වැලක් සැපයීම . 
+
 
                                             </div>
                                             <a href="#about_us" class="theme-btn btn-style-two">Read More</a>
@@ -236,18 +236,18 @@
 
                             <div class="content">
                                 <p style="font-size: 20px;">
-                                    <span style="color:#49BFAB"> ප්‍රදේශිය </span>- ප්‍රාදේශිය මට්ටම සෑම ග්‍රාම නිළධාරී වසමක් ආවරණය වන පරිදි 2021 
-                                    නොවැම්බර් පලමු සතිය  තුළ ප්‍රදේශිය ලේකම් කොට්ඨාශ මට්ටමේ තරග පැවැත්වේ.      
+                                    <span style="color:#49BFAB"> ප්‍රදේශිය </span>- ප්‍රාදේශිය මට්ටමින් සෑම ග්‍රාම නිළධාරී වසමක් ආවරණය වන පරිදි 2021 
+                                    නොවැම්බර් පළමු සතිය  තුළ ප්‍රදේශිය ලේකම් කොට්ඨාශ   මට්ටමින්  තරග පැවැත්වේ.      
                                 </p>
                                 <p style="font-size: 20px;">
                                     <span style="color:#49BFAB"> දිස්ත්‍රික්  </span>- 
-                                    
-                                    දිස්ත්‍රික් මට්ටම ප්‍රදේශිය ජයාග්‍රහකයින් ගෙන් තොරාගනු ලැබේ    2021 නොවැම්බර් දෙවන සතියතුළ තරග පැවැත්වේ. ප්‍රදේශිය ජයග්‍රහයින්ට සහභාගී විය හැක.   
+
+                                   දිස්ත්‍රික්  මට්ටමින්  ජයාග්‍රහකයින් ගෙන් තොරාගනු ලැබේ .   2021 නොවැම්බර් දෙවන සතියතුළ තරග පැවැත්වේ. ප්‍රදේශිය  ජයාග්‍රහකයින්  සහභාගී විය හැක.   
                                 </p>
 
-                                <p style="font-size: 16px;">
-                                    <span style="color:#49BFAB">  ජාතික </span> - දිස්ත්‍රික් 26 ක ජයාග්‍රයකින් අතුරින් තොරාගනු ලැබ්.
-       ජාතික තරඟයට සුදුසුකම් ලබන ‍ ගෙවතු 26 අතුරින් හොඳම ගෙවතු තුන තොරාගනු ලැබේ. 
+                                <p style="font-size: 20px;">
+                                    <span style="color:#49BFAB">  ජාතික </span> - දිස්ත්‍රික් 26 ක  ජයාග්‍රහකයින්  අතුරින් තොරාගනු  ලැබේ.
+                                    ජාතික තරඟයට සුදුසුකම් ලබන ‍ ගෙවතු 26 අතුරින් හොඳම ගෙවතු තුන තොරාගනු ලැබේ. 
                                 </p>
                             </div>
 
@@ -338,7 +338,7 @@
                                     <!--Content Column-->
                                     <div class="content-column col-lg-9 col-md-12 col-sm-12 col-xs-12">
                                         <div class="inner">
-                                            <h3>බෝග විවිධාංගී කරණය.</h3> 
+                                            <h3> බෝග විවිධාංගීකරණය..</h3> 
                                         </div>
                                     </div>
                                 </div>
@@ -358,7 +358,7 @@
                                     <!--Content Column-->
                                     <div class="content-column col-lg-9 col-md-12 col-sm-12 col-xs-12">
                                         <div class="inner">
-                                            <h3>ස්වභාවික සම්පත්  භාවිතය.</h3> 
+                                            <h3> ගෘහ ආර්ථික නිෂ්පාදන.</h3> 
                                         </div>
                                     </div>
                                 </div>
@@ -444,7 +444,7 @@
 
                                     <div class="row clearfix">
                                         <div class="row">
-                                            <div class="form-group col-md- col-sm-6 col-xs-12">
+                                            <div class="form-group col-md-12 col-sm-6 col-xs-12">
                                                 <div class="field-label">තරඟකරන කාණ්ඩය<sup>*</sup></div>
                                                 <select class="form-select" name="type" id="type">
                                                     <option value="">---- කාණ්ඩය තෝරන්න ---</option>
@@ -622,64 +622,65 @@
                     </div>
                 </div>
             </section>
-            
-            <section class="news-section" id="news">
-                <div class="auto-container">
-                    <!--Section Title-->
-                    <div class="sec-title-one">
-                        <h2 >Latest news updates</h2>
+
+<!--            <section class="news-section" id="news">
+    <div class="auto-container">
+        Section Title
+        <div class="sec-title-one">
+            <h2 >Latest news updates</h2>
+        </div>
+
+        <div class="row clearfix">
+
+            News Style One
+            <div class="news-style-one col-md-4 col-sm-6 col-xs-12">
+                <div class="inner-box">
+                    <figure class="image-box"><a href="#"><img src="images/resource/blog-image-1.jpg" alt=""></a></figure>
+                    <div class="lower-content">
+                        <h3><a href="#">ලස්සන රටක් </a></h3>
+                        <div class="text">
+                            ශ්‍රී ලංකාවේ ප්‍රාදේශීය ලේකම් කොට්ඨාස 334 ක් පුරා විහිදී ඇති යෞවන සමාජ තරුණ තරුණියන්ගේ නිර්මාණශීලී චින්තනය උදෙසා නව දිරිගැන්වීමක් ලබා දෙමින් "ලස්සන රටක්" ව්‍යාපෘතිය ක්‍රියාත්මක වේ. ඒ සඳහා රුපියල් මිලියන 16.7 ක් වූ මූල්‍යමය ප්‍රතිපාදන(එක් කොට්ඨාසයකට රුපියල් 50,000 බැගින්) වෙන් කර  </div>
+
                     </div>
+                </div>
+            </div>
 
-                    <div class="row clearfix">
-
-                        <!--News Style One-->
-                        <div class="news-style-one col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="images/resource/blog-image-1.jpg" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <h3><a href="#">ලස්සන රටක් </a></h3>
-                                    <div class="text">
-                                        ශ්‍රී ලංකාවේ ප්‍රාදේශීය ලේකම් කොට්ඨාස 334 ක් පුරා විහිදී ඇති යෞවන සමාජ තරුණ තරුණියන්ගේ නිර්මාණශීලී චින්තනය උදෙසා නව දිරිගැන්වීමක් ලබා දෙමින් "ලස්සන රටක්" ව්‍යාපෘතිය ක්‍රියාත්මක වේ. ඒ සඳහා රුපියල් මිලියන 16.7 ක් වූ මූල්‍යමය ප්‍රතිපාදන(එක් කොට්ඨාසයකට රුපියල් 50,000 බැගින්) වෙන් කර  </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--News Style One-->
-                        <div class="news-style-one col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="images/resource/blog-image-2.jpg" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <h3><a href="#">
-                                            සාරභූමි යෞවනයේ ව්‍යවසායකයන්ගේ එකමුතුව
-                                        </a></h3>
-                                    <div class="text">
-                                        දේශීය කෘෂි නිෂ්පාදන යෞවනයේ ව්‍යවසායකයන්ගේ එකමුතුවෙන් සිදු කරනු ලබන "තරුණ ගොවි නිෂ්පාදන අලෙවිය හා ප්‍රදර්ශනය" අප්‍රේල් මස 4 වන දින සිට 6 වන දා දක්වා ජාතික තරුණ සේවා සභා පරිශ්‍රයේ දී පැවැත්වේ.
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--News Style One-->
-                        <div class="news-style-one col-md-4 col-sm-6 col-xs-12">
-                            <div class="inner-box">
-                                <figure class="image-box"><a href="blog-single.html"><img src="images/resource/blog-image-3.jpg" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <h3><a href="blog-single.html">
-                                            ඩ්‍රෝන තාක්ෂණය කෘෂිකාර්මික බීජ රෝපණයට </a></h3>
-                                    <div class="text">
-                                        ලංකාවේ ප්‍රථම වරට නවීන තාක්ෂණය ඔස්සේ GPS හා ඩ්‍රෝන යානා තාක්‍ෂණය භාවිත කරමින් ජාතික තරුණ සේවා සභාවට අයත් අගුණකොළපැලැස්ස එරමිණියාය පුහුණු මධ්‍යස්ථාන භූමීයේ කෂිකාර්මික බීජ රෝපණය පැවැත්විණි. 
-                                    </div>
-
-                                </div>
-                            </div>
+            News Style One
+            <div class="news-style-one col-md-4 col-sm-6 col-xs-12">
+                <div class="inner-box">
+                    <figure class="image-box"><a href="#"><img src="images/resource/blog-image-2.jpg" alt=""></a></figure>
+                    <div class="lower-content">
+                        <h3><a href="#">
+                                සාරභූමි යෞවනයේ ව්‍යවසායකයන්ගේ එකමුතුව
+                            </a></h3>
+                        <div class="text">
+                            දේශීය කෘෂි නිෂ්පාදන යෞවනයේ ව්‍යවසායකයන්ගේ එකමුතුවෙන් සිදු කරනු ලබන "තරුණ ගොවි නිෂ්පාදන අලෙවිය හා ප්‍රදර්ශනය" අප්‍රේල් මස 4 වන දින සිට 6 වන දා දක්වා ජාතික තරුණ සේවා සභා පරිශ්‍රයේ දී පැවැත්වේ.
                         </div>
 
                     </div>
                 </div>
-            </section>
-            <section class="welcome-section" >
+            </div>
+
+            News Style One
+            <div class="news-style-one col-md-4 col-sm-6 col-xs-12">
+                <div class="inner-box">
+                    <figure class="image-box"><a href="blog-single.html"><img src="images/resource/blog-image-3.jpg" alt=""></a></figure>
+                    <div class="lower-content">
+                        <h3><a href="blog-single.html">
+                                ඩ්‍රෝන තාක්ෂණය කෘෂිකාර්මික බීජ රෝපණයට </a></h3>
+                        <div class="text">
+                            ලංකාවේ ප්‍රථම වරට නවීන තාක්ෂණය ඔස්සේ GPS හා ඩ්‍රෝන යානා තාක්‍ෂණය භාවිත කරමින් ජාතික තරුණ සේවා සභාවට අයත් අගුණකොළපැලැස්ස එරමිණියාය පුහුණු මධ්‍යස්ථාන භූමීයේ කෂිකාර්මික බීජ රෝපණය පැවැත්විණි. 
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>-->
+
+            <section class="welcome-section" style="background-color: #FFF" >
                 <div class="auto-container"> 
 
                     <div class="row clearfix">
@@ -807,7 +808,22 @@
                 </div>
             </section>
 
+            <section class="call-to-action-one">
 
+                <!--Floted Image Left-->
+                <figure class="floated-image-left wow slideInLeft animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: slideInLeft;"><img src="images/resource/man-with-food-2.png" alt=""></figure>
+
+                <!--Floted Image Right-->
+                <figure class="floated-image-right wow fadeInRight animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInRight;"><img src="images/resource/food-image-12.png" alt=""></figure>
+
+                <div class="auto-container">
+                    <div class="content-box">
+                        <div class="sub-title">HOTLINE</div>
+                        <div class="phone-number"> (+94) 11 285 0986</div>
+                        <div class="text">You can contaact with us quickly. Call for us any time  ...</div>
+                    </div>
+                </div>
+            </section>
             <!--Main Footer / Footer Style One-->
             <?php include './footer.php'; ?>
 
