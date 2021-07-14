@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <meta charset="utf-8">
         <title> Sri Lanka Youth || Homepage</title>
@@ -14,28 +13,23 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <link href="css/responsive.css" rel="stylesheet">
-
+        <link href="sweetalert/sweetalert.css" rel="stylesheet" type="text/css"/>
+        <link href="css/preloader.css" rel="stylesheet" type="text/css"/>
+        
     </head>
-
-    <body>
-
+    <body class="someBlock">
         <div class="page-wrapper">
-
             <!-- Preloader -->
             <div class="preloader"></div>
-
             <!-- Main Header-->
             <?php include './header.php'; ?>
             <!--End Main Header -->
-
-
             <!--Main Slider-->
             <section class="main-slider" id="scroll-section-one" data-start-height="900" data-slide-overlay="yes">
 
                 <div class="tp-banner-container">
                     <div class="tp-banner">
                         <ul>
-
                             <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-1.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
                                 <img src="images/main-slider/image-1.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
 
@@ -226,6 +220,7 @@
                     <!--Section Title-->
                     <div class="sec-title-one">
                         <h2>About our Suhuru Garden. </h2>
+
                     </div>
 
                     <div class="row clearfix">
@@ -238,6 +233,7 @@
 
                         <div class="col-lg-7 col-md-8 col-sm-8 col-xs-12"> 
                             <h2 style="font-weight: 700;font-size: 35px;margin-bottom: 20px;"><i>තරඟ පැවැත්වෙන ආකාරය.</i></h2>
+
                             <div class="content">
                                 <p style="font-size: 20px;">
                                     <span style="color:#49BFAB"> ප්‍රදේශිය </span>- ප්‍රාදේශිය මට්ටම සෑම ග්‍රාම නිළධාරී වසමක් ආවරණය වන පරිදි 2021 
@@ -248,10 +244,10 @@
                                     
                                     දිස්ත්‍රික් මට්ටම ප්‍රදේශිය ජයාග්‍රහකයින් ගෙන් තොරාගනු ලැබේ    2021 නොවැම්බර් දෙවන සතියතුළ තරග පැවැත්වේ. ප්‍රදේශිය ජයග්‍රහයින්ට සහභාගී විය හැක.   
                                 </p>
-                                <p style="font-size: 20px;">
-                                    <span style="color:#49BFAB">  ජාතික </span> - දිස්ත්‍රික් 26 ක ජයාග්‍රයකින් අතුරින් තොරාගනු ලැබ්.
 
-                                    ජාතික තරඟයට සුදුසුකම් ලබන ‍ ගෙවතු 26 අතුරින් හොඳම ගෙවතු තුන තොරාගනු ලැබේ. 
+                                <p style="font-size: 16px;">
+                                    <span style="color:#49BFAB">  ජාතික </span> - දිස්ත්‍රික් 26 ක ජයාග්‍රයකින් අතුරින් තොරාගනු ලැබ්.
+       ජාතික තරඟයට සුදුසුකම් ලබන ‍ ගෙවතු 26 අතුරින් හොඳම ගෙවතු තුන තොරාගනු ලැබේ. 
                                 </p>
                             </div>
 
@@ -444,64 +440,75 @@
                         <!--Billing Details-->
                         <div class="billing-details">
                             <div class="shop-form">
-                                <form method="post" action="#">
+                                <form method="post" action="#" id="form-data">
 
                                     <div class="row clearfix">
-
-
-                                        <div class="form-group col-md- col-sm-6 col-xs-12">
-                                            <div class="field-label">Full Name <sup>*</sup></div>
-                                            <input type="text" name="field-name" value="" placeholder="Enter Your Full Name">
+                                        <div class="row">
+                                            <div class="form-group col-md- col-sm-6 col-xs-12">
+                                                <div class="field-label">තරඟකරන කාණ්ඩය<sup>*</sup></div>
+                                                <select class="form-select" name="type" id="type">
+                                                    <option value="">---- කාණ්ඩය තෝරන්න ---</option>
+                                                    <option value="1">අහාර බෝහ </option>
+                                                    <option value="2">මල් වගාව</option>
+                                                    <option value="3">සත්ව පාලනය</option>
+                                                    <option value="4">ගෘහ ආශ්‍රිත නිෂ්පාදන</option>
+                                                </select>
+                                            </div>
                                         </div>
+                                        <div class="row">
+                                            <div class="form-group col-md- col-sm-6 col-xs-12">
+                                                <div class="field-label">සම්පූර්ණ නම  <sup>*</sup></div>
+                                                <input type="text" name="name" id="name" placeholder="Enter Your Full Name">
+                                            </div>
 
-                                        <!--Form Group-->
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">Address <sup>*</sup></div>
-                                            <input type="text" name="field-name" value="" placeholder="Enter Address">
-                                        </div>
+                                            <!--Form Group-->
+                                            <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                                <div class="field-label">උපන්දිනය   <sup>*</sup> </div>
+                                                <input type="text" name="dob" id="dob" placeholder="YYYY/MM/DD">
+                                            </div>
 
-                                        <!--Form Group-->
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">Date of Birth. </div>
-                                            <input type="text" name="field-name" value="" placeholder="Enter date of birth">
-                                        </div>
+                                            <!--Form Group-->
+                                            <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                                <div class="field-label">ඊ-තැපෑල <sup>*</sup></div>
+                                                <input type="email" id="email" name="email" placeholder="Enter Email address.">
+                                            </div>
 
-                                        <!--Form Group-->
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">Email Address  <sup>*</sup></div>
-                                            <input type="email" name="field-name" value="" placeholder="Enter Email address.">
-                                        </div>
+                                            <!--Form Group-->
+                                            <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                                <div class="field-label">දුරකථන අංකය  <sup>*</sup></div>
+                                                <input type="text" id="phone" name="phone" placeholder="Enter Phone Number">
+                                            </div>
 
-                                        <!--Form Group-->
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">Phone <sup>*</sup></div>
-                                            <input type="text" name="field-name" value="" placeholder="Enter Phone Number">
-                                        </div>
+                                            <!--Form Group-->
+                                            <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                                <div class="field-label">වට්ස්-ඇප් අංකය <sup>*</sup> </div>
+                                                <input type="text" name="whatsapp" id="whatsapp" placeholder="Enter whatsapp Mobile number">
+                                            </div>
 
-                                        <!--Form Group-->
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">Whtasapp mobile Number   </div>
-                                            <input type="text" name="field-name" value="" placeholder="Enter whatsapp Mobile number">
+                                            <!--Form Group-->
+                                            <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                                <div class="field-label">ග්‍රාමනිලධාරි වසම <sup>*</sup></div>
+                                                <input type="text" id="grama" name="grama" placeholder="Grama Niladari Wasama">
+                                            </div>
+                                            <!--Form Group-->
+                                            <!--                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 hidden">
+                                                                                        <div class="field-label">Grama Niladari Number</div>
+                                                                                        <input type="text" name="field-name" value="" placeholder="">
+                                                                                    </div>-->
+                                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                                <div class="field-label">ලිපිනය <sup>*</sup></div>
+                                                <input type="text" name="address" id="address" placeholder="Enter Address">
+                                            </div>
+                                            <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <div class="field-label">තරුණ ශක්තියෙන් අස්වැද්දූ තරුණ කෘෂි ගොවිපොල 
+                                                    ඔබේ ගෙවත්තට පැමිණිය හැකි මාර්ගය - ළගම ප්‍රධාන නගරයේ සිට සටහන් කරන්න </div>
+                                                <textarea placeholder="Notes about." name="location" id="location"></textarea>
+                                            </div>
                                         </div>
+                                        <div class="row">
+                                            <div class="more-btn-outer text-right"><a href="#" id="create" name="create" class="theme-btn btn-style-four">Submit Application</a></div>
 
-                                        <!--Form Group-->
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">Grama Niladari Wasama</div>
-                                            <input type="text" name="field-name" value="" placeholder="">
                                         </div>
-                                        <!--Form Group-->
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">Grama Niladari Number</div>
-                                            <input type="text" name="field-name" value="" placeholder="">
-                                        </div>
-
-                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="field-label">තරුණ ශක්තියෙන් අස්වැද්දූ තරුණ කෘෂි ගොවිපොල 
-                                                ඔබේ ගෙවත්තට පැමිණිය හැකි මාර්ගය - ළගම ප්‍රධාන නගරයේ සිට සටහන් කරන්න </div>
-                                            <textarea placeholder="Notes about."></textarea>
-                                        </div>
-
-                                        <div class="more-btn-outer text-right"><a href="#" class="theme-btn btn-style-four">View More</a></div>
 
                                     </div>
                                 </form>
@@ -821,10 +828,12 @@
         <script src="js/owl.js"></script>
         <script src="js/wow.js"></script>
         <script src="js/script.js"></script>
-
+        <script src="sweetalert/sweetalert.min.js" type="text/javascript"></script>
         <!--Google Map APi Key-->
         <script src="http://maps.google.com/maps/api/js?key="></script>
         <script src="js/map-script.js"></script>
+        <script src="js/jquery.preloader.min.js" type="text/javascript"></script>
+        <script src="ajax/js/booking.js" type="text/javascript"></script>
         <!--End Google Map APi-->
 
     </body>
