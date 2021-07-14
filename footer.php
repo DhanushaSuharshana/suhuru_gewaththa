@@ -1,4 +1,4 @@
-<footer class="main-footer footer-style-one">
+<footer class="main-footer footer-style-one" style="background-color: #f8f8f8;">
 
     <!--Footer Upper-->        
     <div class="footer-upper" style="padding: 70px 0px 40px;">

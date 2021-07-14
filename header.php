@@ -16,9 +16,8 @@
 
                 <!--Top Right-->
                 <div class="top-right" style="background-color: #5ec79c">
-                    <a href="#contant" class="theme-btn get-quote-btn"><span class="fa fa-reply-all"></span> අයදුම් කරන්න </a>
+                    <a href="#contant" class="theme-btn get-quote-btn" style="background-color: #5ec79c;"><span class="fa fa-reply-all"></span> අයදුම් කරන්න </a>
                 </div>
-
             </div>
 
         </div>
