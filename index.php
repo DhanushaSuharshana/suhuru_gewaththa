@@ -15,7 +15,41 @@
         <link href="css/responsive.css" rel="stylesheet">
         <link href="sweetalert/sweetalert.css" rel="stylesheet" type="text/css"/>
         <link href="css/preloader.css" rel="stylesheet" type="text/css"/>
+        <style>
+            .html5-video-player a{
+                display: none;
+            }
 
+            .tp-banner{
+                position: relative;
+            }
+            .overlay{
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: transparent;
+                /*opacity: 0.1;*/
+            }
+            .overlayFoot{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 300px;
+                background: linear-gradient(rgba(1,1,1,0), rgba(0,0,0,1));
+            }
+            .overlaytHead{
+                position: absolute;
+                z-index: 9999;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 500px;
+                background: linear-gradient(rgba(0,0,0,1), rgba(1,1,1,0));
+            }
+        </style>
     </head>
     <body class="someBlock">
         <div class="page-wrapper">
@@ -29,143 +63,154 @@
 
                 <div class="tp-banner-container">
                     <div class="tp-banner">
-                        <ul>
-                            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-1.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                                <img src="images/main-slider/image-1.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
-
-                                <div class="tp-caption sfl sfb tp-resizeme"
-                                     data-x="center" data-hoffset="0"
-                                     data-y="center" data-voffset="-150"
-                                     data-speed="1500"
-                                     data-start="500"
-                                     data-easing="easeOutExpo"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-elementdelay="0.01"
-                                     data-endelementdelay="0.3"
-                                     data-endspeed="1200"
-                                     data-endeasing="Power4.easeIn"><h2>Farm fresh</h2></div>
-
-                                <div class="tp-caption sfr sfb tp-resizeme"
-                                     data-x="center" data-hoffset="0"
-                                     data-y="center" data-voffset="-70"
-                                     data-speed="1500"
-                                     data-start="500"
-                                     data-easing="easeOutExpo"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-elementdelay="0.01"
-                                     data-endelementdelay="0.3"
-                                     data-endspeed="1200"
-                                     data-endeasing="Power4.easeIn"><div class="big-text">Locally Grown</div></div>
-
-                                <div class="tp-caption sfl sfb tp-resizeme"
-                                     data-x="center" data-hoffset="0"
-                                     data-y="center" data-voffset="0"
-                                     data-speed="1500"
-                                     data-start="500"
-                                     data-easing="easeOutExpo"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-elementdelay="0.01"
-                                     data-endelementdelay="0.3"
-                                     data-endspeed="1200"
-                                     data-endeasing="Power4.easeIn"><a href="shop.html" class="theme-btn btn-style-one">Shop Now</a></div>
+                        <div class="overlay"></div>
+                        <!--<ul>-->
+                        <!--                            <div id="ytplayer"></div>-->
 
 
-                            </li>
+                        <!--                            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-1.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
+                                                        <img src="images/main-slider/image-1.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+                        
+                                                        <div class="tp-caption sfl sfb tp-resizeme"
+                                                             data-x="center" data-hoffset="0"
+                                                             data-y="center" data-voffset="-150"
+                                                             data-speed="1500"
+                                                             data-start="500"
+                                                             data-easing="easeOutExpo"
+                                                             data-splitin="none"
+                                                             data-splitout="none"
+                                                             data-elementdelay="0.01"
+                                                             data-endelementdelay="0.3"
+                                                             data-endspeed="1200"
+                                                             data-endeasing="Power4.easeIn"><h2>Farm fresh</h2></div>
+                        
+                                                        <div class="tp-caption sfr sfb tp-resizeme"
+                                                             data-x="center" data-hoffset="0"
+                                                             data-y="center" data-voffset="-70"
+                                                             data-speed="1500"
+                                                             data-start="500"
+                                                             data-easing="easeOutExpo"
+                                                             data-splitin="none"
+                                                             data-splitout="none"
+                                                             data-elementdelay="0.01"
+                                                             data-endelementdelay="0.3"
+                                                             data-endspeed="1200"
+                                                             data-endeasing="Power4.easeIn"><div class="big-text">Locally Grown</div></div>
+                        
+                                                        <div class="tp-caption sfl sfb tp-resizeme"
+                                                             data-x="center" data-hoffset="0"
+                                                             data-y="center" data-voffset="0"
+                                                             data-speed="1500"
+                                                             data-start="500"
+                                                             data-easing="easeOutExpo"
+                                                             data-splitin="none"
+                                                             data-splitout="none"
+                                                             data-elementdelay="0.01"
+                                                             data-endelementdelay="0.3"
+                                                             data-endspeed="1200"
+                                                             data-endeasing="Power4.easeIn"><a href="shop.html" class="theme-btn btn-style-one">Shop Now</a></div>
+                        
+                        
+                                                    </li>
+                        
+                                                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-2.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
+                                                        <img src="images/main-slider/image-2.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+                        
+                                                        <div class="tp-caption sfl sfb tp-resizeme"
+                                                             data-x="left" data-hoffset="15"
+                                                             data-y="center" data-voffset="-140"
+                                                             data-speed="1500"
+                                                             data-start="500"
+                                                             data-easing="easeOutExpo"
+                                                             data-splitin="none"
+                                                             data-splitout="none"
+                                                             data-elementdelay="0.01"
+                                                             data-endelementdelay="0.3"
+                                                             data-endspeed="1200"
+                                                             data-endeasing="Power4.easeIn"><figure class="content-image"><img src="images/main-slider/leaf-icon.png" alt=""></figure></div>
+                        
+                                                        <div class="tp-caption sfr sfb tp-resizeme"
+                                                             data-x="left" data-hoffset="15"
+                                                             data-y="center" data-voffset="-10"
+                                                             data-speed="1500"
+                                                             data-start="500"
+                                                             data-easing="easeOutExpo"
+                                                             data-splitin="none"
+                                                             data-splitout="none"
+                                                             data-elementdelay="0.01"
+                                                             data-endelementdelay="0.3"
+                                                             data-endspeed="1200"
+                                                             data-endeasing="Power4.easeIn"><h3>The Huge variety of the freshest <br>fruits and vegetables</h3></div>
+                        
+                                                        <div class="tp-caption sfl sfb tp-resizeme"
+                                                             data-x="left" data-hoffset="15"
+                                                             data-y="center" data-voffset="110"
+                                                             data-speed="1500"
+                                                             data-start="500"
+                                                             data-easing="easeOutExpo"
+                                                             data-splitin="none"
+                                                             data-splitout="none"
+                                                             data-elementdelay="0.01"
+                                                             data-endelementdelay="0.3"
+                                                             data-endspeed="1200"
+                                                             data-endeasing="Power4.easeIn"><a href="shop.html" class="theme-btn btn-style-one">Shop Now</a> &ensp;&ensp; <a href="shop.html" class="theme-btn btn-style-three">Buy Now</a></div>
+                        
+                        
+                                                    </li>
+                        
+                                                    <li data-transition="zoomout" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-3.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
+                                                        <img src="images/main-slider/image-3.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+                        
+                                                        <div class="tp-caption sft sfb tp-resizeme"
+                                                             data-x="center" data-hoffset="0"
+                                                             data-y="center" data-voffset="-140"
+                                                             data-speed="1500"
+                                                             data-start="500"
+                                                             data-easing="easeOutExpo"
+                                                             data-splitin="none"
+                                                             data-splitout="none"
+                                                             data-elementdelay="0.01"
+                                                             data-endelementdelay="0.3"
+                                                             data-endspeed="1200"
+                                                             data-endeasing="Power4.easeIn"><figure class="content-image"><img src="images/main-slider/leaf-icon.png" alt=""></figure></div>
+                        
+                                                        <div class="tp-caption sft sfb tp-resizeme"
+                                                             data-x="center" data-hoffset="0"
+                                                             data-y="center" data-voffset="-10"
+                                                             data-speed="1500"
+                                                             data-start="500"
+                                                             data-easing="easeOutExpo"
+                                                             data-splitin="none"
+                                                             data-splitout="none"
+                                                             data-elementdelay="0.01"
+                                                             data-endelementdelay="0.3"
+                                                             data-endspeed="1200"
+                                                             data-endeasing="Power4.easeIn"><h3 class="text-center">The Huge variety of the freshest <br>fruits and vegetables</h3></div>
+                        
+                                                        <div class="tp-caption sfb sfb tp-resizeme"
+                                                             data-x="center" data-hoffset="0"
+                                                             data-y="center" data-voffset="110"
+                                                             data-speed="1500"
+                                                             data-start="500"
+                                                             data-easing="easeOutExpo"
+                                                             data-splitin="none"
+                                                             data-splitout="none"
+                                                             data-elementdelay="0.01"
+                                                             data-endelementdelay="0.3"
+                                                             data-endspeed="1200"
+                                                             data-endeasing="Power4.easeIn"><a href="shop.html" class="theme-btn btn-style-one">Shop Now</a> &ensp;&ensp; <a href="shop.html" class="theme-btn btn-style-three">Buy Now</a></div>
+                        
+                        
+                                                    </li>-->
 
-                            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-2.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                                <img src="images/main-slider/image-2.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+                        <!--</ul>-->
+                        <div class="overlaytHead"></div>
+                        <div class="overlayFoot"></div>
+                        
+                        <iframe  width="100%" height="96%"  src="https://www.youtube.com/embed/ijhFmgf6gHc?controls=0&start=5&showinfo=0&rel=0&autoplay=1&loop=1&modestbranding=1&playlist=ijhFmgf6gHc" title="YouTube video player" frameborder="0" showinfo="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
+                <!--<iframe src="https://www.youtube.com/embed/1oCxvFEmqRM?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=1oCxvFEmqRM" allow="autoplay" allowfullscreen></iframe>-->
 
-                                <div class="tp-caption sfl sfb tp-resizeme"
-                                     data-x="left" data-hoffset="15"
-                                     data-y="center" data-voffset="-140"
-                                     data-speed="1500"
-                                     data-start="500"
-                                     data-easing="easeOutExpo"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-elementdelay="0.01"
-                                     data-endelementdelay="0.3"
-                                     data-endspeed="1200"
-                                     data-endeasing="Power4.easeIn"><figure class="content-image"><img src="images/main-slider/leaf-icon.png" alt=""></figure></div>
-
-                                <div class="tp-caption sfr sfb tp-resizeme"
-                                     data-x="left" data-hoffset="15"
-                                     data-y="center" data-voffset="-10"
-                                     data-speed="1500"
-                                     data-start="500"
-                                     data-easing="easeOutExpo"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-elementdelay="0.01"
-                                     data-endelementdelay="0.3"
-                                     data-endspeed="1200"
-                                     data-endeasing="Power4.easeIn"><h3>The Huge variety of the freshest <br>fruits and vegetables</h3></div>
-
-                                <div class="tp-caption sfl sfb tp-resizeme"
-                                     data-x="left" data-hoffset="15"
-                                     data-y="center" data-voffset="110"
-                                     data-speed="1500"
-                                     data-start="500"
-                                     data-easing="easeOutExpo"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-elementdelay="0.01"
-                                     data-endelementdelay="0.3"
-                                     data-endspeed="1200"
-                                     data-endeasing="Power4.easeIn"><a href="shop.html" class="theme-btn btn-style-one">Shop Now</a> &ensp;&ensp; <a href="shop.html" class="theme-btn btn-style-three">Buy Now</a></div>
-
-
-                            </li>
-
-                            <li data-transition="zoomout" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-3.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                                <img src="images/main-slider/image-3.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
-
-                                <div class="tp-caption sft sfb tp-resizeme"
-                                     data-x="center" data-hoffset="0"
-                                     data-y="center" data-voffset="-140"
-                                     data-speed="1500"
-                                     data-start="500"
-                                     data-easing="easeOutExpo"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-elementdelay="0.01"
-                                     data-endelementdelay="0.3"
-                                     data-endspeed="1200"
-                                     data-endeasing="Power4.easeIn"><figure class="content-image"><img src="images/main-slider/leaf-icon.png" alt=""></figure></div>
-
-                                <div class="tp-caption sft sfb tp-resizeme"
-                                     data-x="center" data-hoffset="0"
-                                     data-y="center" data-voffset="-10"
-                                     data-speed="1500"
-                                     data-start="500"
-                                     data-easing="easeOutExpo"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-elementdelay="0.01"
-                                     data-endelementdelay="0.3"
-                                     data-endspeed="1200"
-                                     data-endeasing="Power4.easeIn"><h3 class="text-center">The Huge variety of the freshest <br>fruits and vegetables</h3></div>
-
-                                <div class="tp-caption sfb sfb tp-resizeme"
-                                     data-x="center" data-hoffset="0"
-                                     data-y="center" data-voffset="110"
-                                     data-speed="1500"
-                                     data-start="500"
-                                     data-easing="easeOutExpo"
-                                     data-splitin="none"
-                                     data-splitout="none"
-                                     data-elementdelay="0.01"
-                                     data-endelementdelay="0.3"
-                                     data-endspeed="1200"
-                                     data-endeasing="Power4.easeIn"><a href="shop.html" class="theme-btn btn-style-one">Shop Now</a> &ensp;&ensp; <a href="shop.html" class="theme-btn btn-style-three">Buy Now</a></div>
-
-
-                            </li>
-
-                        </ul>
 
                         <div class="tp-bannertimer"></div>
                     </div>
@@ -183,13 +228,13 @@
                                     <img src="images/logo.png" alt=""  />
                                 </center>
 
-                                <div class="row clearfix">
+                                <div class="row clearfix" style="margin-top: 20px">
                                     <!--Content Column-->
                                     <div class="content-column col-md-6 col-sm-6 col-xs-12">
                                         <div class="inner text-left wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                             <h3>01. කෘෂි හා ගෘහ ආශ්‍රිත නිෂ්පාදන සංවර්ධනය.   </h3>
                                             <div class="text">
-                                              දේශීය කෘෂි හා ගෘහ ආශ්‍රිත නිෂ්පාදන සංවර්ධනය කිරීම හා නන්වාලීම සඳහා අත්වැලක් සැපයීම . 
+                                                දේශීය කෘෂි හා ගෘහ ආශ්‍රිත නිෂ්පාදන සංවර්ධනය කිරීම හා නන්වාලීම සඳහා අත්වැලක් සැපයීම . 
 
 
                                             </div>
@@ -242,7 +287,7 @@
                                 <p style="font-size: 20px;">
                                     <span style="color:#49BFAB"> දිස්ත්‍රික්  </span>- 
 
-                                   දිස්ත්‍රික්  මට්ටමින්  ජයාග්‍රහකයින් ගෙන් තොරාගනු ලැබේ .   2021 නොවැම්බර් දෙවන සතියතුළ තරග පැවැත්වේ. ප්‍රදේශිය  ජයාග්‍රහකයින්  සහභාගී විය හැක.   
+                                    දිස්ත්‍රික්  මට්ටමින්  ජයාග්‍රහකයින් ගෙන් තොරාගනු ලැබේ .   2021 නොවැම්බර් දෙවන සතියතුළ තරග පැවැත්වේ. ප්‍රදේශිය  ජයාග්‍රහකයින්  සහභාගී විය හැක.   
                                 </p>
 
                                 <p style="font-size: 20px;">
@@ -424,6 +469,67 @@
                                 </div>
                             </div>
                         </div>  
+                        
+                        <div class="product-style-two col-md-4 col-sm-6 col-xs-12">
+                            <div class="inner-box">
+                                <div class="clearfix">
+                                    <!--Image Column-->
+                                    <div class="image-column col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                        <figure class="image">
+                                            <a href="#">
+                                                <img src="images/icons/77.png" alt="">
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <!--Content Column-->
+                                    <div class="content-column col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="inner">
+                                            <h3>නවීන තාක්ෂණය භාවිතා කිරීම.</h3> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-style-two col-md-4 col-sm-6 col-xs-12">
+                            <div class="inner-box">
+                                <div class="clearfix">
+                                    <!--Image Column-->
+                                    <div class="image-column col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                        <figure class="image">
+                                            <a href="#">
+                                                <img src="images/icons/11.png" alt="">
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <!--Content Column-->
+                                    <div class="content-column col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="inner">
+                                            <h3>පරිසර හිතකාමී බව.</h3> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-style-two col-md-4 col-sm-6 col-xs-12">
+                            <div class="inner-box">
+                                <div class="clearfix">
+                                    <!--Image Column-->
+                                    <div class="image-column col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                        <figure class="image">
+                                            <a href="#">
+                                                <img src="images/icons/66.png" alt="">
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <!--Content Column-->
+                                    <div class="content-column col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="inner">
+                                            <h3>දේශීය අමු ද්‍රව්‍ය භාවිතා කිරීම.</h3> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -443,69 +549,70 @@
                                 <form method="post" action="#" id="form-data">
 
                                     <div class="row clearfix">
-                                        <div class="row">
-                                            <div class="form-group col-md-12 col-sm-6 col-xs-12">
-                                                <div class="field-label">තරඟකරන කාණ්ඩය<sup>*</sup></div>
-                                                <select class="form-select" name="type" id="type">
-                                                    <option value="">---- කාණ්ඩය තෝරන්න ---</option>
-                                                    <option value="1">අහාර බෝහ </option>
-                                                    <option value="2">මල් වගාව</option>
-                                                    <option value="3">සත්ව පාලනය</option>
-                                                    <option value="4">ගෘහ ආශ්‍රිත නිෂ්පාදන</option>
-                                                </select>
-                                            </div>
+
+                                        <div class="form-group col-md-12 col-sm-6 col-xs-12">
+                                            <div class="field-label">තරඟකරන කාණ්ඩය | போட்டியிடும் பிரிவு<sup>*</sup></div>
+                                            <select class="form-select" name="type" id="type">
+                                                <option value="">---- කාණ්ඩය තෝරන්න | பிரிவைத் தேர்ந்தெடுக்கவும். ---</option>
+                                                <option value="1">අහාර බෝහ </option>
+                                                <option value="2">මල් වගාව</option>
+                                                <option value="3">සත්ව පාලනය</option>
+                                                <option value="4">ගෘහ ආශ්‍රිත නිෂ්පාදන</option>
+                                            </select>
                                         </div>
-                                        <div class="row">
-                                            <div class="form-group col-md- col-sm-6 col-xs-12">
-                                                <div class="field-label">සම්පූර්ණ නම  <sup>*</sup></div>
-                                                <input type="text" name="name" id="name" placeholder="Enter Your Full Name">
-                                            </div>
 
-                                            <!--Form Group-->
-                                            <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                                <div class="field-label">උපන්දිනය   <sup>*</sup> </div>
-                                                <input type="text" name="dob" id="dob" placeholder="YYYY/MM/DD">
-                                            </div>
 
-                                            <!--Form Group-->
-                                            <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                                <div class="field-label">ඊ-තැපෑල <sup>*</sup></div>
-                                                <input type="email" id="email" name="email" placeholder="Enter Email address.">
-                                            </div>
-
-                                            <!--Form Group-->
-                                            <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                                <div class="field-label">දුරකථන අංකය  <sup>*</sup></div>
-                                                <input type="text" id="phone" name="phone" placeholder="Enter Phone Number">
-                                            </div>
-
-                                            <!--Form Group-->
-                                            <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                                <div class="field-label">වට්ස්-ඇප් අංකය <sup>*</sup> </div>
-                                                <input type="text" name="whatsapp" id="whatsapp" placeholder="Enter whatsapp Mobile number">
-                                            </div>
-
-                                            <!--Form Group-->
-                                            <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                                <div class="field-label">ග්‍රාමනිලධාරි වසම <sup>*</sup></div>
-                                                <input type="text" id="grama" name="grama" placeholder="Grama Niladari Wasama">
-                                            </div>
-                                            <!--Form Group-->
-                                            <!--                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 hidden">
-                                                                                        <div class="field-label">Grama Niladari Number</div>
-                                                                                        <input type="text" name="field-name" value="" placeholder="">
-                                                                                    </div>-->
-                                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                                <div class="field-label">ලිපිනය <sup>*</sup></div>
-                                                <input type="text" name="address" id="address" placeholder="Enter Address">
-                                            </div>
-                                            <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                <div class="field-label">තරුණ ශක්තියෙන් අස්වැද්දූ තරුණ කෘෂි ගොවිපොල 
-                                                    ඔබේ ගෙවත්තට පැමිණිය හැකි මාර්ගය - ළගම ප්‍රධාන නගරයේ සිට සටහන් කරන්න </div>
-                                                <textarea placeholder="Notes about." name="location" id="location"></textarea>
-                                            </div>
+                                        <div class="form-group col-md- col-sm-6 col-xs-12">
+                                            <div class="field-label">සම්පූර්ණ නම |  முழு பெயர்    <sup>*</sup></div>
+                                            <input type="text" name="name" id="name" placeholder="Enter Your Full Name">
                                         </div>
-                                        <div class="row">
+
+                                        <!--Form Group-->
+                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                            <div class="field-label">උපන්දිනය | பிறந்த தினம்  <sup>*</sup> </div>
+                                            <input type="text" name="dob" id="dob" placeholder="YYYY/MM/DD">
+                                        </div>
+
+                                        <!--Form Group-->
+                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                            <div class="field-label">ඊ-තැපෑල | மின்னஞ்சல் முகவரி <sup>*</sup></div>
+                                            <input type="email" id="email" name="email" placeholder="Enter Email address.">
+                                        </div>
+
+                                        <!--Form Group-->
+                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                            <div class="field-label">දුරකථන අංකය | தொலைபேசி இலக்கம் <sup>*</sup></div>
+                                            <input type="text" id="phone" name="phone" placeholder="Enter Phone Number">
+                                        </div>
+
+                                        <!--Form Group-->
+                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                            <div class="field-label">වට්ස්-ඇප් අංකය | வாட்சப் இலக்கம். <sup>*</sup> </div>
+                                            <input type="text" name="whatsapp" id="whatsapp" placeholder="Enter whatsapp Mobile number">
+                                        </div>
+
+                                        <!--Form Group-->
+                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                            <div class="field-label">ග්‍රාමනිලධාරි වසම | கிராம சேவகர் பிரிவு <sup>*</sup></div>
+                                            <input type="text" id="grama" name="grama" placeholder="Grama Niladari Wasama">
+                                        </div>
+                                        <!--Form Group-->
+                                        <!--                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 hidden">
+                                                                                    <div class="field-label">Grama Niladari Number</div>
+                                                                                    <input type="text" name="field-name" value="" placeholder="">
+                                                                                </div>-->
+                                        <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                            <div class="field-label">ලිපිනය | முகவரி<sup>*</sup></div>
+                                            <input type="text" name="address" id="address" placeholder="Enter Address">
+                                        </div>
+                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="field-label">තරුණ ශක්තියෙන් අස්වැද්දූ තරුණ කෘෂි ගොවිපොල 
+                                                ඔබේ ගෙවත්තට පැමිණිය හැකි මාර්ගය - ළගම ප්‍රධාන නගරයේ සිට සටහන් කරන්න <br> 
+                                            பண்ணைக்கு அணுகல ்- அருகில் உள்ள நகரில் இருந்து</div>
+                                            <textarea placeholder="How to reach your location" name="location" id="location"></textarea>
+                                        </div>
+
+                                        <div class="row" style="margin-bottom: 30px">
                                             <div class="more-btn-outer text-right"><a href="#" id="create" name="create" class="theme-btn btn-style-four">Submit Application</a></div>
 
                                         </div>
@@ -522,76 +629,76 @@
             </div>
 
 
-            <!--Our Team-->
-            <section class="team-section" id="projects">
-                <div class="auto-container">
-                    <!--Section Title-->
-                    <div class="sec-title-one">
-                        <h2>පසුගිය වර්ෂයන්හි පැවති ව්‍යාපෘති.  </h2>
-                    </div>
-
-                    <div class="row clearfix">
-                        <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
-                            <!--Default Team Member-->
-                            <div class="default-team-member">
-                                <div class="inner-box clearfix">
-                                    <!--Image Column-->
-                                    <div class="image-column"><figure class="image"><a href="#"><img src="images/suhuru/01.jpg" alt=""></a></figure></div>
-                                    <!--Content Column-->
-                                    <div class="content-column">
-                                        <div class="inner">
-                                            <h3>තරුණ කෘෂි ගොවිපළ</h3>
-                                            <div class="text">
-                                                තරුණ කෘෂි ගොවිපළ හරහා  රන් අස්වනු නෙලීමක  ආරම්භය
+            <!--            Our Team
+                        <section class="team-section" id="projects">
+                            <div class="auto-container">
+                                Section Title
+                                <div class="sec-title-one">
+                                    <h2>පසුගිය වර්ෂයන්හි පැවති ව්‍යාපෘති.  </h2>
+                                </div>
+            
+                                <div class="row clearfix">
+                                    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                        Default Team Member
+                                        <div class="default-team-member">
+                                            <div class="inner-box clearfix">
+                                                Image Column
+                                                <div class="image-column"><figure class="image"><a href="#"><img src="images/suhuru/01.jpg" alt=""></a></figure></div>
+                                                Content Column
+                                                <div class="content-column">
+                                                    <div class="inner">
+                                                        <h3>තරුණ කෘෂි ගොවිපළ</h3>
+                                                        <div class="text">
+                                                            තරුණ කෘෂි ගොවිපළ හරහා  රන් අස්වනු නෙලීමක  ආරම්භය
+                                                        </div>
+            
+                                                    </div>
+                                                </div>
                                             </div>
-
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--Default Team Member-->
-                            <div class="default-team-member alternate">
-                                <div class="inner-box clearfix">
-                                    <!--Image Column-->
-                                    <div class="image-column"><figure class="image"><a href="#"><img src="images/suhuru/02.jpg" alt=""></a></figure></div>
-                                    <!--Content Column-->
-                                    <div class="content-column">
-                                        <div class="inner">
-                                            <h3>තරුණ කෘෂි ගොවිපළ</h3>
-                                            <div class="text">
-                                                නව තාක්ෂණයෙන් බල ගන්වන ලද ජාතික තරුණ සේවා සභාවේ ගොවිපළ ඉහල ප්‍රගතියක් අත් කරගනිමින් සිටී.     
+            
+                                        Default Team Member
+                                        <div class="default-team-member alternate">
+                                            <div class="inner-box clearfix">
+                                                Image Column
+                                                <div class="image-column"><figure class="image"><a href="#"><img src="images/suhuru/02.jpg" alt=""></a></figure></div>
+                                                Content Column
+                                                <div class="content-column">
+                                                    <div class="inner">
+                                                        <h3>තරුණ කෘෂි ගොවිපළ</h3>
+                                                        <div class="text">
+                                                            නව තාක්ෂණයෙන් බල ගන්වන ලද ජාතික තරුණ සේවා සභාවේ ගොවිපළ ඉහල ප්‍රගතියක් අත් කරගනිමින් සිටී.     
+                                                        </div>
+            
+                                                    </div>
+                                                </div>
                                             </div>
-
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                        Default Team Member / Vertical
+                                        <div class="default-team-member vertical">
+                                            <div class="inner-box clearfix">
+                                                Image Column
+                                                <div class="image-column"><figure class="image"><a href="#"><img src="images/suhuru/03.jpg" alt=""></a></figure></div>
+                                                Content Column
+                                                <div class="content-column">
+                                                    <div class="inner">
+                                                        <h3>අපේ ගෙවත්ත</h3>
+                                                        <div class="text">
+                                                            අපේ ගෙවත්ත - අභිමානවත් තාරුණ්‍යයක්, සෞභග්‍යමත් හෙටක් .</div>
+            
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> 
                             </div>
-
-                        </div>
-
-                        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                            <!--Default Team Member / Vertical-->
-                            <div class="default-team-member vertical">
-                                <div class="inner-box clearfix">
-                                    <!--Image Column-->
-                                    <div class="image-column"><figure class="image"><a href="#"><img src="images/suhuru/03.jpg" alt=""></a></figure></div>
-                                    <!--Content Column-->
-                                    <div class="content-column">
-                                        <div class="inner">
-                                            <h3>අපේ ගෙවත්ත</h3>
-                                            <div class="text">
-                                                අපේ ගෙවත්ත - අභිමානවත් තාරුණ්‍යයක්, සෞභග්‍යමත් හෙටක් .</div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-            </section>
-
+                        </section>
+            -->
 
 
             <!--Fluid Section Two-->
@@ -609,8 +716,8 @@
                                         <div class="subscribe-form">
                                             <form method="post" action="#">
                                                 <div class="form-group">
-                                                    <input type="email" name="email" value="" placeholder="Enter Your Email" required>
-                                                    <button type="submit" class="theme-btn btn-style-three" id="application_form">Send Now</button>
+                                                    <input type="email" name="email" value="" placeholder="">
+
                                                 </div>
                                             </form>
                                         </div>
@@ -852,6 +959,9 @@
         <script src="ajax/js/booking.js" type="text/javascript"></script>
         <!--End Google Map APi-->
 
+        <script>
+
+        </script>
     </body>
 
 </html>
