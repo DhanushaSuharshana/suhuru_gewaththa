@@ -16,7 +16,7 @@
 
                 <!--Top Right-->
                 <div class="top-right" style="background-color: #5ec79c">
-                    <a href="#contant" class="theme-btn get-quote-btn" style="background-color: #5ec79c;"><span class="fa fa-reply-all"></span> අයදුම් කරන්න </a>
+                    <a href="#application_form" class="theme-btn get-quote-btn" style="background-color: #5ec79c;"><span class="fa fa-reply-all"></span> අයදුම් කරන්න </a>
                 </div>
             </div>
 
@@ -99,43 +99,14 @@
         <div class="side-menu">
             <!-- .navigation -->
             <ul class="navigation">
-                <li class="current dropdown"><a href="#">Home</a>
-                    <ul>
-                        <li><a href="index.html">Homepage One</a></li>
-                        <li><a href="index-2.html">Homepage Two</a></li>
-                        <li><a href="index-3.html">Homepage Three</a></li>
-                        <li class="dropdown"><a href="index-3.html">Header Styles</a>
-                            <ul>
-                                <li><a href="index.html">Header Style One</a></li>
-                                <li><a href="index-2.html">Header Style Two</a></li>
-                                <li><a href="index-3.html">Header Style Three</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li class="dropdown"><a href="#">Gallery</a>
-                    <ul>
-                        <li><a href="gallery-three-column.html">Gallery Three Column</a></li>
-                        <li><a href="gallery-masonry.html">Gallery Masonry</a></li>
-                        <li><a href="gallery-fullwidth.html">Gallery Fullwidth</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown"><a href="#">Blog</a>
-                    <ul>
-                        <li><a href="blog.html">Our Blog</a></li>
-                        <li><a href="blog-single.html">Blog Single</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown"><a href="#">Shop</a>
-                    <ul>
-                        <li><a href="shop.html">Our Shop</a></li>
-                        <li><a href="shop-single.html">Shop Single</a></li>
-                        <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                        <li><a href="checkout.html">Checkout</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contact Us</a></li>
+                
+                  <li class="current"><a href="index.php">Home</a>  </li>
+                                <li><a href="#about_us">About Us</a></li>
+                                <li><a href="#rules">Rules</a>  </li>
+                         
+                                <li><a href="#application_form">Application Form</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#news">News</a></li>
             </ul>
         </div><!-- /.Side-menu -->
 

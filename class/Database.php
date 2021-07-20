@@ -13,11 +13,11 @@
  * */
 class Database {
 
-//    private $host = 'localhost';
-//    private $name = 'suhatdux_auroralanka';
-//    private $user = 'suhatdux_auroralanka';
-//   private $password = 'iE,@lxE0HGWr';
-
+//    private $host = 'mysql.nysc.lk';
+//    private $name = 'nysc_opdb';
+//    private $user = 'nysc';
+//    private $password = 'fBc7qFr9@1973';
+//    public  $DB_CON = NULL;
 
     private $host = 'localhost';
     private $name = 'nysc';
