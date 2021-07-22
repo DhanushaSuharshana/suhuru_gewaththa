@@ -15,6 +15,8 @@ if (isset($_POST['create'])) {
     $BOOKING->grama_wasama = $_POST['grama'];
     $BOOKING->grama_no = 'dsd';
     $BOOKING->address = $_POST['address'];
+    $BOOKING->district = $_POST['district'];
+    $BOOKING->ds = $_POST['ds'];
     $BOOKING->location = $_POST['location'];
     $BOOKING->whatsapp = $_POST['whatsapp'];
     $BOOKING->create();

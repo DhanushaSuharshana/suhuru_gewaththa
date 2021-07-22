@@ -5,7 +5,7 @@ jQuery(document).ready(function () {
     {
         event.preventDefault();
         //-- ** Start Error Messages
-         if (!$('#type').val() || $('#type').val().length === 0) {
+        if (!$('#type').val() || $('#type').val().length === 0) {
             swal({
                 title: "Error!",
                 text: "Please Select the Section.",
@@ -14,7 +14,7 @@ jQuery(document).ready(function () {
                 showConfirmButton: false
             });
             //-- ** End Error Messages
-        }else if (!$('#name').val() || $('#name').val().length === 0) {
+        } else if (!$('#name').val() || $('#name').val().length === 0) {
             swal({
                 title: "Error!",
                 text: "Please Enter the Full Name.",
@@ -41,6 +41,15 @@ jQuery(document).ready(function () {
                 showConfirmButton: false
             });
             //-- ** End Error Messages
+        } else if (!$('#grama').val() || $('#grama').val().length === 0) {
+            swal({
+                title: "Error!",
+                text: "Please Enter the Grama Niladari Wasama.",
+                type: 'error',
+                timer: 2000,
+                showConfirmButton: false
+            });
+            //-- ** End Error Messages
         } else if (!$('#phone').val() || $('#phone').val().length === 0) {
             swal({
                 title: "Error!",
@@ -50,19 +59,19 @@ jQuery(document).ready(function () {
                 showConfirmButton: false
             });
             //-- ** End Error Messages
-        } else if (!$('#whatsapp').val() || $('#whatsapp').val().length === 0) {
+        } else if (!$('#district').val() || $('#district').val().length === 0) {
             swal({
                 title: "Error!",
-                text: "Please Enter the Whatsapp Number.",
+                text: "Please select the District.",
                 type: 'error',
                 timer: 2000,
                 showConfirmButton: false
             });
             //-- ** End Error Messages
-        } else if (!$('#grama').val() || $('#grama').val().length === 0) {
+        } else if (!$('#ds').val() || $('#ds').val().length === 0) {
             swal({
                 title: "Error!",
-                text: "Please Enter the Grama Niladari Wasama.",
+                text: "Please Enter the Divisional Secretariat.",
                 type: 'error',
                 timer: 2000,
                 showConfirmButton: false
@@ -112,7 +121,7 @@ jQuery(document).ready(function () {
                             showConfirmButton: false
                         });
                         window.setTimeout(function () {
-                           window.location.replace("success.php");
+                            window.location.replace("success.php");
                         }, 3000);
                     } else if (result.status === 'error') {
                         swal({

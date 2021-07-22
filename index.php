@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<?php include './class/include.php'; ?>
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -63,152 +65,152 @@
 
                 <div class="tp-banner-container">
                     <div class="tp-banner">
-                        <div class="overlay"></div>
-                        <!--<ul>-->
-                        <!--                            <div id="ytplayer"></div>-->
+                        <!--                        <div class="overlay"></div>-->
+                        <ul>
 
 
-                        <!--                            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-1.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                                                        <img src="images/main-slider/image-1.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
-                        
-                                                        <div class="tp-caption sfl sfb tp-resizeme"
-                                                             data-x="center" data-hoffset="0"
-                                                             data-y="center" data-voffset="-150"
-                                                             data-speed="1500"
-                                                             data-start="500"
-                                                             data-easing="easeOutExpo"
-                                                             data-splitin="none"
-                                                             data-splitout="none"
-                                                             data-elementdelay="0.01"
-                                                             data-endelementdelay="0.3"
-                                                             data-endspeed="1200"
-                                                             data-endeasing="Power4.easeIn"><h2>Farm fresh</h2></div>
-                        
-                                                        <div class="tp-caption sfr sfb tp-resizeme"
-                                                             data-x="center" data-hoffset="0"
-                                                             data-y="center" data-voffset="-70"
-                                                             data-speed="1500"
-                                                             data-start="500"
-                                                             data-easing="easeOutExpo"
-                                                             data-splitin="none"
-                                                             data-splitout="none"
-                                                             data-elementdelay="0.01"
-                                                             data-endelementdelay="0.3"
-                                                             data-endspeed="1200"
-                                                             data-endeasing="Power4.easeIn"><div class="big-text">Locally Grown</div></div>
-                        
-                                                        <div class="tp-caption sfl sfb tp-resizeme"
-                                                             data-x="center" data-hoffset="0"
-                                                             data-y="center" data-voffset="0"
-                                                             data-speed="1500"
-                                                             data-start="500"
-                                                             data-easing="easeOutExpo"
-                                                             data-splitin="none"
-                                                             data-splitout="none"
-                                                             data-elementdelay="0.01"
-                                                             data-endelementdelay="0.3"
-                                                             data-endspeed="1200"
-                                                             data-endeasing="Power4.easeIn"><a href="shop.html" class="theme-btn btn-style-one">Shop Now</a></div>
-                        
-                        
-                                                    </li>
-                        
-                                                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-2.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                                                        <img src="images/main-slider/image-2.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
-                        
-                                                        <div class="tp-caption sfl sfb tp-resizeme"
-                                                             data-x="left" data-hoffset="15"
-                                                             data-y="center" data-voffset="-140"
-                                                             data-speed="1500"
-                                                             data-start="500"
-                                                             data-easing="easeOutExpo"
-                                                             data-splitin="none"
-                                                             data-splitout="none"
-                                                             data-elementdelay="0.01"
-                                                             data-endelementdelay="0.3"
-                                                             data-endspeed="1200"
-                                                             data-endeasing="Power4.easeIn"><figure class="content-image"><img src="images/main-slider/leaf-icon.png" alt=""></figure></div>
-                        
-                                                        <div class="tp-caption sfr sfb tp-resizeme"
-                                                             data-x="left" data-hoffset="15"
-                                                             data-y="center" data-voffset="-10"
-                                                             data-speed="1500"
-                                                             data-start="500"
-                                                             data-easing="easeOutExpo"
-                                                             data-splitin="none"
-                                                             data-splitout="none"
-                                                             data-elementdelay="0.01"
-                                                             data-endelementdelay="0.3"
-                                                             data-endspeed="1200"
-                                                             data-endeasing="Power4.easeIn"><h3>The Huge variety of the freshest <br>fruits and vegetables</h3></div>
-                        
-                                                        <div class="tp-caption sfl sfb tp-resizeme"
-                                                             data-x="left" data-hoffset="15"
-                                                             data-y="center" data-voffset="110"
-                                                             data-speed="1500"
-                                                             data-start="500"
-                                                             data-easing="easeOutExpo"
-                                                             data-splitin="none"
-                                                             data-splitout="none"
-                                                             data-elementdelay="0.01"
-                                                             data-endelementdelay="0.3"
-                                                             data-endspeed="1200"
-                                                             data-endeasing="Power4.easeIn"><a href="shop.html" class="theme-btn btn-style-one">Shop Now</a> &ensp;&ensp; <a href="shop.html" class="theme-btn btn-style-three">Buy Now</a></div>
-                        
-                        
-                                                    </li>
-                        
-                                                    <li data-transition="zoomout" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-3.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
-                                                        <img src="images/main-slider/image-3.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
-                        
-                                                        <div class="tp-caption sft sfb tp-resizeme"
-                                                             data-x="center" data-hoffset="0"
-                                                             data-y="center" data-voffset="-140"
-                                                             data-speed="1500"
-                                                             data-start="500"
-                                                             data-easing="easeOutExpo"
-                                                             data-splitin="none"
-                                                             data-splitout="none"
-                                                             data-elementdelay="0.01"
-                                                             data-endelementdelay="0.3"
-                                                             data-endspeed="1200"
-                                                             data-endeasing="Power4.easeIn"><figure class="content-image"><img src="images/main-slider/leaf-icon.png" alt=""></figure></div>
-                        
-                                                        <div class="tp-caption sft sfb tp-resizeme"
-                                                             data-x="center" data-hoffset="0"
-                                                             data-y="center" data-voffset="-10"
-                                                             data-speed="1500"
-                                                             data-start="500"
-                                                             data-easing="easeOutExpo"
-                                                             data-splitin="none"
-                                                             data-splitout="none"
-                                                             data-elementdelay="0.01"
-                                                             data-endelementdelay="0.3"
-                                                             data-endspeed="1200"
-                                                             data-endeasing="Power4.easeIn"><h3 class="text-center">The Huge variety of the freshest <br>fruits and vegetables</h3></div>
-                        
-                                                        <div class="tp-caption sfb sfb tp-resizeme"
-                                                             data-x="center" data-hoffset="0"
-                                                             data-y="center" data-voffset="110"
-                                                             data-speed="1500"
-                                                             data-start="500"
-                                                             data-easing="easeOutExpo"
-                                                             data-splitin="none"
-                                                             data-splitout="none"
-                                                             data-elementdelay="0.01"
-                                                             data-endelementdelay="0.3"
-                                                             data-endspeed="1200"
-                                                             data-endeasing="Power4.easeIn"><a href="shop.html" class="theme-btn btn-style-one">Shop Now</a> &ensp;&ensp; <a href="shop.html" class="theme-btn btn-style-three">Buy Now</a></div>
-                        
-                        
-                                                    </li>-->
 
-                        <!--</ul>-->
-                        <div class="overlaytHead"></div>
-                        <div class="overlayFoot"></div>
-                        
-                        <iframe  width="100%" height="96%"  src="https://www.youtube.com/embed/ijhFmgf6gHc?controls=0&start=5&showinfo=0&rel=0&autoplay=1&loop=1&modestbranding=1&playlist=ijhFmgf6gHc" title="YouTube video player" frameborder="0" showinfo="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        
+                            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-1.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
+                                <img src="images/main-slider/image-1.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+
+                                <div class="tp-caption sfl sfb tp-resizeme"
+                                     data-x="center" data-hoffset="0"
+                                     data-y="center" data-voffset="-150"
+                                     data-speed="1500"
+                                     data-start="500"
+                                     data-easing="easeOutExpo"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.01"
+                                     data-endelementdelay="0.3"
+                                     data-endspeed="1200"
+                                     data-endeasing="Power4.easeIn"><h2>Farm fresh</h2></div>
+
+                                <div class="tp-caption sfr sfb tp-resizeme"
+                                     data-x="center" data-hoffset="0"
+                                     data-y="center" data-voffset="-70"
+                                     data-speed="1500"
+                                     data-start="500"
+                                     data-easing="easeOutExpo"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.01"
+                                     data-endelementdelay="0.3"
+                                     data-endspeed="1200"
+                                     data-endeasing="Power4.easeIn"><div class="big-text">Locally Grown</div></div>
+
+                                <div class="tp-caption sfl sfb tp-resizeme"
+                                     data-x="center" data-hoffset="0"
+                                     data-y="center" data-voffset="0"
+                                     data-speed="1500"
+                                     data-start="500"
+                                     data-easing="easeOutExpo"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.01"
+                                     data-endelementdelay="0.3"
+                                     data-endspeed="1200"
+                                     data-endeasing="Power4.easeIn"><a href="shop.html" class="theme-btn btn-style-one">Shop Now</a></div>
+
+
+                            </li>
+
+                            <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-2.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
+                                <img src="images/main-slider/image-2.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+
+                                <div class="tp-caption sfl sfb tp-resizeme"
+                                     data-x="left" data-hoffset="15"
+                                     data-y="center" data-voffset="-140"
+                                     data-speed="1500"
+                                     data-start="500"
+                                     data-easing="easeOutExpo"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.01"
+                                     data-endelementdelay="0.3"
+                                     data-endspeed="1200"
+                                     data-endeasing="Power4.easeIn"><figure class="content-image"><img src="images/main-slider/leaf-icon.png" alt=""></figure></div>
+
+                                <div class="tp-caption sfr sfb tp-resizeme"
+                                     data-x="left" data-hoffset="15"
+                                     data-y="center" data-voffset="-10"
+                                     data-speed="1500"
+                                     data-start="500"
+                                     data-easing="easeOutExpo"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.01"
+                                     data-endelementdelay="0.3"
+                                     data-endspeed="1200"
+                                     data-endeasing="Power4.easeIn"><h3>The Huge variety of the freshest <br>fruits and vegetables</h3></div>
+
+                                <div class="tp-caption sfl sfb tp-resizeme"
+                                     data-x="left" data-hoffset="15"
+                                     data-y="center" data-voffset="110"
+                                     data-speed="1500"
+                                     data-start="500"
+                                     data-easing="easeOutExpo"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.01"
+                                     data-endelementdelay="0.3"
+                                     data-endspeed="1200"
+                                     data-endeasing="Power4.easeIn"><a href="shop.html" class="theme-btn btn-style-one">Shop Now</a> &ensp;&ensp; <a href="shop.html" class="theme-btn btn-style-three">Buy Now</a></div>
+
+
+                            </li>
+
+                            <li data-transition="zoomout" data-slotamount="1" data-masterspeed="1000" data-thumb="images/main-slider/image-3.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
+                                <img src="images/main-slider/image-3.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+
+                                <div class="tp-caption sft sfb tp-resizeme"
+                                     data-x="center" data-hoffset="0"
+                                     data-y="center" data-voffset="-140"
+                                     data-speed="1500"
+                                     data-start="500"
+                                     data-easing="easeOutExpo"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.01"
+                                     data-endelementdelay="0.3"
+                                     data-endspeed="1200"
+                                     data-endeasing="Power4.easeIn"><figure class="content-image"><img src="images/main-slider/leaf-icon.png" alt=""></figure></div>
+
+                                <div class="tp-caption sft sfb tp-resizeme"
+                                     data-x="center" data-hoffset="0"
+                                     data-y="center" data-voffset="-10"
+                                     data-speed="1500"
+                                     data-start="500"
+                                     data-easing="easeOutExpo"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.01"
+                                     data-endelementdelay="0.3"
+                                     data-endspeed="1200"
+                                     data-endeasing="Power4.easeIn"><h3 class="text-center">The Huge variety of the freshest <br>fruits and vegetables</h3></div>
+
+                                <div class="tp-caption sfb sfb tp-resizeme"
+                                     data-x="center" data-hoffset="0"
+                                     data-y="center" data-voffset="110"
+                                     data-speed="1500"
+                                     data-start="500"
+                                     data-easing="easeOutExpo"
+                                     data-splitin="none"
+                                     data-splitout="none"
+                                     data-elementdelay="0.01"
+                                     data-endelementdelay="0.3"
+                                     data-endspeed="1200"
+                                     data-endeasing="Power4.easeIn"><a href="shop.html" class="theme-btn btn-style-one">Shop Now</a> &ensp;&ensp; <a href="shop.html" class="theme-btn btn-style-three">Buy Now</a></div>
+
+
+                            </li>
+
+                        </ul>
+                        <!--                        <div class="overlaytHead"></div>
+                                                <div class="overlayFoot"></div>
+                                                
+                                                <iframe  width="100%" height="96%"  src="https://www.youtube.com/embed/ijhFmgf6gHc?controls=0&start=5&showinfo=0&rel=0&autoplay=1&loop=1&modestbranding=1&playlist=ijhFmgf6gHc" title="YouTube video player" frameborder="0" showinfo="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        -->
                 <!--<iframe src="https://www.youtube.com/embed/1oCxvFEmqRM?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=1oCxvFEmqRM" allow="autoplay" allowfullscreen></iframe>-->
 
 
@@ -469,7 +471,7 @@
                                 </div>
                             </div>
                         </div>  
-                        
+
                         <div class="product-style-two col-md-4 col-sm-6 col-xs-12">
                             <div class="inner-box">
                                 <div class="clearfix">
@@ -587,20 +589,44 @@
 
                                         <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">වට්ස්-ඇප් අංකය | வாட்சப் இலக்கம். <sup>*</sup> </div>
+                                            <div class="field-label">වට්ස්-ඇප් අංකය | வாட்சப் இலக்கம். </div>
                                             <input type="text" name="whatsapp" id="whatsapp" placeholder="Enter whatsapp Mobile number">
                                         </div>
-
-                                        <!--Form Group-->
                                         <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                            <div class="field-label">ග්‍රාමනිලධාරි වසම | கிராம சேவகர் பிரிவு <sup>*</sup></div>
-                                            <input type="text" id="grama" name="grama" placeholder="Grama Niladari Wasama">
+                                            <div class="field-label">දිස්ත්‍රික්කය<sup>*</sup></div>
+                                            <select class="form-select" name="district" id="district">
+                                                <option value="">---- Select the District ---</option>
+                                                <?php
+                                                $DISTRICTS_OBJ = new Districts(NULL);
+                                                $DISTRICTS = $DISTRICTS_OBJ->all();
+                                                foreach ($DISTRICTS as $DISTRICT) {
+                                                    ?>
+                                                    <option value="<?php echo $DISTRICT['name']; ?>"><?php echo $DISTRICT['name']; ?></option>
+                                                    <?php
+                                                }
+                                                ?>
+
+
+                                            </select>
                                         </div>
+                                  
                                         <!--Form Group-->
                                         <!--                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 hidden">
                                                                                     <div class="field-label">Grama Niladari Number</div>
                                                                                     <input type="text" name="field-name" value="" placeholder="">
                                                                                 </div>-->
+
+
+                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                            <div class="field-label">ප්‍රාදේශීය ලේකම් කාර්යාලය <sup>*</sup></div>
+                                            <input type="text" id="ds" name="ds" placeholder="Divisional Secretariat">
+                                        </div>
+
+      <!--Form Group-->
+                                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                            <div class="field-label">ග්‍රාමනිලධාරි වසම | கிராம சேவகர் பிரிவு <sup>*</sup></div>
+                                            <input type="text" id="grama" name="grama" placeholder="Grama Niladari Wasama">
+                                        </div>
                                         <div class="form-group col-md-12 col-sm-12 col-xs-12">
                                             <div class="field-label">ලිපිනය | முகவரி<sup>*</sup></div>
                                             <input type="text" name="address" id="address" placeholder="Enter Address">
@@ -608,7 +634,7 @@
                                         <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="field-label">තරුණ ශක්තියෙන් අස්වැද්දූ තරුණ කෘෂි ගොවිපොල 
                                                 ඔබේ ගෙවත්තට පැමිණිය හැකි මාර්ගය - ළගම ප්‍රධාන නගරයේ සිට සටහන් කරන්න <br> 
-                                            பண்ணைக்கு அணுகல ்- அருகில் உள்ள நகரில் இருந்து</div>
+                                                பண்ணைக்கு அணுகல ்- அருகில் உள்ள நகரில் இருந்து</div>
                                             <textarea placeholder="How to reach your location" name="location" id="location"></textarea>
                                         </div>
 
